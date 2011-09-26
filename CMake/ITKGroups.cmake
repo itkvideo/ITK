@@ -1,5 +1,5 @@
 # Set a list of group names
-set(group_list Core IO Filtering Registration Segmentation Numerics Utilities Bridge Nonunit VideoCommon VideoOpenCV VideoVXL)
+set(group_list Core IO Filtering Registration Segmentation Numerics Utilities Bridge Nonunit)
 
 #------------------------------------------------
 # Set a module name list for each group
