@@ -127,22 +127,6 @@ ITK-IntegratedTest
 ITK-Review
 )
 
-set(VideoCommon_module_list
-Video-Core-Common
-Video-IO-Base
-Video-IO-FileList
-Video-Filters-Common
-)
-
-set(VideoOpenCV_module_list
-Video-Core-OpenCV
-Video-IO-OpenCV
-Video-Filters-OpenCV
-)
-
-set(VideoVXL_module_list
-Video-IO-VXL
-)
 #------------------------------------------------
 # Turn on the ITK_BUILD option for each group
 if("$ENV{DASHBOARD_TEST_FROM_CTEST}" STREQUAL "")
